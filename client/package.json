@@ -9,7 +9,7 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "host": "vite --host",
-  "build": "npm install --legacy-peer-deps && vite build"
+  "build": "npm install --force && vite build"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.17",

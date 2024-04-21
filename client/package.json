@@ -5,11 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+  "build": "npm install --force && vite build"
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "host": "vite --host",
-  "build": "npm install --force && vite build"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.17",
@@ -17,9 +16,9 @@
     "axios": "^1.6.4",
     "html5-qrcode": "^2.3.8",
     "qrcode": "^1.5.3",
-    "react": "17.0.0",
+    "react": ^18.2.0",
     "react-barcode": "^1.4.6",
-    "react-dom": "17.0.0",
+    "react-dom": "^18.2.0",
     "react-qr-reader": "^3.0.0-beta-1",
     "react-router-dom": "^6.21.1",
     "react-toastify": "^9.1.3",
